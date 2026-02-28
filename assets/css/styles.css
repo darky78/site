@@ -329,6 +329,11 @@ img{max-width:100%; display:block}
   object-fit:contain;
   background: rgba(27,34,64,.04);
 }
+.gallery-mobile .g{min-height: 500px}
+.gallery-mobile .g img{
+  object-fit:contain;
+  background: rgba(27,34,64,.04);
+}
 
 .gallery{
   display:grid;
