@@ -55,6 +55,16 @@
             <span class="pill">Fun facts</span>
           </div>
           <hr class="sep" />
+          <div class="small app-description">
+            <p>
+              CriCri Animals est un jeu éducatif pour enfants dès 4 ans conçu pour apprendre les animaux, développer le vocabulaire et découvrir les noms des animaux en 6 langues avec prononciation correcte.
+            </p>
+            <p>
+              L’enfant écoute un son, observe les animaux à l’écran et devine le bon animal.
+              Il entend ensuite la prononciation exacte du nom, favorisant l’apprentissage des langues, la compréhension orale et la mémorisation.
+            </p>
+            <p>Créé par une famille, pour les familles.</p>
+          </div>
           <div class="small"><b>Liens de téléchargement</b><br>• Google Play : (à renseigner)<br>• App Store : (à renseigner)</div>
           <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px">
             <a class="store" href="#" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 12.2c0-3.6 2.9-6.6 6.5-6.6 1.8 0 3.3.7 4.5 1.8l-1.8 1.8c-.5-.5-1.4-1-2.7-1-2.3 0-4.1 1.9-4.1 4.1s1.9 4.1 4.1 4.1c2.7 0 3.7-1.9 3.9-2.9H10V12h8c.1.4.2.9.2 1.5 0 4.8-3.2 8.2-8 8.2-4.6 0-8.6-3.7-8.6-9.5z"/></svg> Google Play</a>
@@ -63,11 +73,23 @@
         </div>
       </div>
 
-      <h2 class="h2" style="margin-top:26px">Captures d’écran</h2>
+      <h2 class="h2" style="margin-top:26px">Captures d’écran sur tablette landscape</h2>
       <div class="gallery" style="margin-top:12px">
-        <div class="g"><img src="../../assets/img/cricri-shot-1.jpg" alt="Capture d’écran 1"></div>
-        <div class="g"><img src="../../assets/img/cricri-shot-2.jpg" alt="Capture d’écran 2"></div>
-        <div class="g"><img src="../../assets/img/cricri-shot-3.jpg" alt="Capture d’écran 3"></div>
+        <div class="g">
+          <button class="gallery-open-btn" type="button" data-full-src="../../assets/img/cricri-tablet-landscape-3.jpg" aria-label="Ouvrir la capture d’écran 1 en grand">
+            <img src="../../assets/img/cricri-tablet-landscape-3.jpg" alt="Capture d’écran 1">
+          </button>
+        </div>
+        <div class="g">
+          <button class="gallery-open-btn" type="button" data-full-src="../../assets/img/cricri-tablet-landscape-2.jpg" aria-label="Ouvrir la capture d’écran 2 en grand">
+            <img src="../../assets/img/cricri-tablet-landscape-2.jpg" alt="Capture d’écran 2">
+          </button>
+        </div>
+        <div class="g">
+          <button class="gallery-open-btn" type="button" data-full-src="../../assets/img/cricri-tablet-landscape-1.jpg" aria-label="Ouvrir la capture d’écran 3 en grand">
+            <img src="../../assets/img/cricri-tablet-landscape-1.jpg" alt="Capture d’écran 3">
+          </button>
+        </div>
       </div>
 
       <div class="section" style="padding-bottom:0">
@@ -95,6 +117,15 @@
   </section>
 </main>
 
+
+
+<div class="image-lightbox" id="image-lightbox" aria-hidden="true">
+  <div class="image-lightbox__backdrop" data-lightbox-close></div>
+  <div class="image-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Capture d’écran en grand">
+    <button class="image-lightbox__close" type="button" aria-label="Fermer" data-lightbox-close>×</button>
+    <img class="image-lightbox__img" id="image-lightbox-img" src="" alt="Capture d’écran agrandie">
+  </div>
+</div>
 
 <footer class="footer">
   <div class="container">
