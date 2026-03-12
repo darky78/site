@@ -71,7 +71,7 @@ img{max-width:100%; display:block}
   display:flex; align-items:center; gap:12px;
   font-weight:900;
 }
-.brand img{height:30px; width:auto}
+.brand img{height:90px; width:auto}
 .nav-links{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
 .nav-links a{
   padding:10px 12px;
